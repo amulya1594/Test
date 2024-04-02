@@ -13,6 +13,6 @@ terraform {
 }
 
 resource "azurerm_resource_group" "main" {
-  name     = "test"
+  name     = "testing"
   location = "eastus"
 }
